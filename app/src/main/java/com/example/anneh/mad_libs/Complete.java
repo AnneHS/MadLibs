@@ -19,7 +19,6 @@ public class Complete extends AppCompatActivity {
         Intent intent = getIntent();
         completeStory = (Story) intent.getSerializableExtra("story");
 
-        // completeStory.read();
 
         completeText = findViewById(R.id.completeText);
         completeText.setText(completeStory.toString());

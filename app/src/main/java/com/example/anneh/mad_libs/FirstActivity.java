@@ -9,7 +9,6 @@ import java.io.InputStream;
 
 public class FirstActivity extends AppCompatActivity {
 
-    // add variable story
     Story story;
     InputStream stream;
 
@@ -21,7 +20,7 @@ public class FirstActivity extends AppCompatActivity {
 
     public void storyClicked(View view) {
 
-        // get InputStream
+        // Get InputStream
         switch(view.getId()) {
             case R.id.simple:       stream = getResources().openRawResource(R.raw.madlib0_simple);
                                     break;
@@ -35,7 +34,7 @@ public class FirstActivity extends AppCompatActivity {
                                     break;
         }
 
-        // initialize story
+        // Initialize story
         story = new Story(stream);
 
         // Direct user to new activity + pass Story object
