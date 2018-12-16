@@ -12,23 +12,40 @@
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
         android:gravity="center_horizontal"
-        android:text="Youd Mad Lib Story!"
-        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+        android:text="Your Mad Lib Story!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
 
     <TextView
         android:id="@+id/completeText"
         android:layout_width="match_parent"
         android:layout_height="400dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
         android:layout_weight="1"
         android:gravity="center_horizontal"
-        android:text="TextView" />
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/new_story"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/buttonshape"
         android:gravity="center_horizontal"
         android:onClick="newClicked"
-        android:text="Make another story" />
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="New Story"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
 </LinearLayout>
