@@ -8,6 +8,12 @@
 is asked to fill in each of the placeholders without telling them anything about the overall story. Once all placeholders are 
 filled in, the resulting silly story is shown.
 
-![alt text](app/doc/keuzescherm.PNG)
-![alt text](app/doc/invulscherm.PNG)
-![alt text](app/doc/verhaal.PNG)
+<p align="center">
+  <img src="https://github.com/AnneHS/MadLibs/blob/master/app/doc/start_portrait.png" height="5%" width="24%"/> <img
+  src="https://github.com/AnneHS/MadLibs/blob/master/app/doc/choose_portrait.png" height="5%" width="24%"/> <img 
+  src="https://github.com/AnneHS/MadLibs/blob/master/app/doc/write_portrait.png" height="5%" width="24%"/> <img 
+  src="https://github.com/AnneHS/Madlibs/blob/master/app/doc/story_portrait.png" height="5%" width="24%"/>     
+  
+  <img src="https://github.com/AnneHS/MadLibs/blob/master/app/doc/start_landscape.png" height="20%" width="49%"/> <img 
+  src="https://github.com/AnneHS/MadLibs/blob/master/app/doc/choose_landscape.png" height="20%" width="49%"/> 
+</p>
